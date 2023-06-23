@@ -1,0 +1,5 @@
+.introduction__profession h2{
+    color: var(--color-text3);
+    font-size: 70px;
+    z-index: 1;
+}

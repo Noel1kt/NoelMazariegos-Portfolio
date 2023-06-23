@@ -1,0 +1,25 @@
+.introduction__image {
+    position: absolute;
+    top: 27%;
+    margin-left: 53%;
+    animation: floating 4s infinite;
+}
+
+.introduction__image-programer{
+    height: 350px;
+    width: 350px;
+    opacity: 0.8;
+    z-index: 1;
+}
+
+@keyframes floating {
+    0% {
+      transform: translate(0, 0);
+    }
+    50% {
+      transform: translate(0, -10px);
+    }
+    100% {
+      transform: translate(0, 0);
+    }
+  }

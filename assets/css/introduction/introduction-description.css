@@ -1,0 +1,10 @@
+.introduction__description h4{
+    color: var(--color-text3);
+    font-family: var(--font-system);
+    font-size: 17px;
+    font-weight: inherit;
+    line-height: 1.2;
+    width: 55%;
+    margin-top: 1rem;
+    z-index: 2;
+}

@@ -1,0 +1,9 @@
+.introduction {
+    background-color: var(--back-color);
+    padding-bottom: 15%;
+    padding-top: 10%;
+    padding-right: 0%;
+    padding-left: 15%;
+    font-weight: 400;
+    width: 100%;
+}

@@ -1,0 +1,10 @@
+.about__tittle {
+    color: var(--color-text1);
+}
+
+.about__tittle:before {
+    content: attr(data-number) ". ";
+    color: var(--text-hover);
+    font-family: monospace;
+    font-size: 30px;
+  }

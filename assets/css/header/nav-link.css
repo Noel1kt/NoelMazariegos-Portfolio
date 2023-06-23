@@ -1,0 +1,11 @@
+.nav__link {
+    margin-right: 1.25rem;
+    text-decoration: none;
+    font-family: var(--font-mono);
+    color: var(--color-text1);
+    font-size: 14px;
+}
+
+.nav__link:hover{
+    color: var(--text-hover);
+}

@@ -1,0 +1,6 @@
+.introduction__hello h4{
+    color: var(--text-hover);
+    font-family: var(--font-mono);
+    font-size: 17px;
+    font-weight: inherit;
+}

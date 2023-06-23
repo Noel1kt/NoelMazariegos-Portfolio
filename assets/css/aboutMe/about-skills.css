@@ -1,0 +1,13 @@
+.about__skills {
+    color: var(--text-hover);
+    font-family: var(--font-verdana);
+    padding: 10px;
+    padding-left: 15%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.about__skills li {
+    font-size: 17px;
+    margin-bottom: 10px;
+}
