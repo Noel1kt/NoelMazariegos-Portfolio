@@ -1,0 +1,11 @@
+.formation__tittle {
+    color: var(--color-text1);
+    margin: 0%;
+}
+
+.formation__tittle:before {
+    content: attr(data-number) ". ";
+    color: var(--text-hover);
+    font-family: monospace;
+    font-size: 30px;
+  }
