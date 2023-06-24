@@ -7,11 +7,10 @@
     padding-top: 0%;
     margin-top: 5%;
     
-    font-size: 16px; 
+    font-size: 19px; 
     font-family: var(--font-system);
     text-align: start;
-    background: #112240;
-    box-shadow: 0px 34px 42px -8px rgba(0, 0, 0, 0.2);
+   
     border-radius: 15px;
     transition: 0.5s;
     z-index: 19;
