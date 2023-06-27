@@ -1,17 +1,14 @@
-.formation__ONE {
-    
-    color: #a8b2d1;
-    width: 55%;
+.formation__name {
 
-    padding: 3rem;
+    display: flex;
+    color: #a8b2d1;
     padding-top: 0%;
-    margin-top: 5%;
-    
     font-size: 19px; 
     font-family: var(--font-system);
     text-align: start;
    
     border-radius: 15px;
     transition: 0.5s;
-    z-index: 19;
+    z-index: 19;    
 }
+

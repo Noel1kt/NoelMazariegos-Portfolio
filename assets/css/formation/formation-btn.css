@@ -1,6 +1,6 @@
 .formation__btn {
     width: 30%;
-    margin-top: 5%;
+    margin-top: 2%;
     margin-right: 1%;
     
 }
@@ -19,7 +19,7 @@
     padding: 5%;
     gap: 6px;
     width: 100%;
-    transition: background-color 0.3s ease-in;
+    transition: background-color 0.1s ease-in;
 }
 .formacion__listado-btn.selected {
     border-color: var(--text-hover);
@@ -30,6 +30,6 @@
 .formacion__listado-btn:hover {
 
     font-weight: 30px;
-    color: var(--color-text2);
+    color: var(--color-text3);
     background-color: #112240;
 }
