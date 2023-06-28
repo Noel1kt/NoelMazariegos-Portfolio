@@ -1,0 +1,6 @@
+.project__card {
+    justify-content: center;
+    align-items: center;
+    background-color: var(--back-color2);
+    margin-top: 5%;
+}

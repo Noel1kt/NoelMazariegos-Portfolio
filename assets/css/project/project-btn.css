@@ -1,0 +1,19 @@
+.project__btn {
+    font-weight: 25px;
+    font-size: 16px;
+    background-color: #0a192f;
+    color:  var(--color-text2); 
+    border-style: none;
+    font-family: monospace;
+    padding: 5%;
+    margin: 5%;
+    gap: 2px;
+    width: 90%;
+    transition: background-color 0.1s ease-in;
+}
+
+.project__btn:hover {
+    border-color: var(--text-hover);
+    background-color: var(--text-hover);
+    color: #0a192f;
+}

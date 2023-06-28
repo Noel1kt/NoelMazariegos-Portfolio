@@ -43,6 +43,13 @@
         <link rel="stylesheet" href="../Portfolio01/assets/css/formation/formation-image.css">
         <link rel="stylesheet" href="../Portfolio01/assets/css/formation/formation-paragraphs.css">
         <link rel="stylesheet" href="../Portfolio01/assets/js/functions.js">
+        <link rel="stylesheet" href="../Portfolio01/assets/css/projects.css">
+        <link rel="stylesheet" href="../Portfolio01/assets/css/project/project-card.css">
+        <link rel="stylesheet" href="../Portfolio01/assets/css/project/project-img.css">
+        <link rel="stylesheet" href="../Portfolio01/assets/css/project/project-cards.css">
+        <link rel="stylesheet" href="../Portfolio01/assets/css/project/project-tittle.css">
+        <link rel="stylesheet" href="../Portfolio01/assets/css/project/project-btn.css">
+        <link rel="stylesheet" href="../Portfolio01/assets/css/project/project-description.css">
     </head>
 
     <header class="header">
@@ -114,6 +121,14 @@
 
         <div class="formation">
             <h1 class="formation__tittle" data-number="02">Formación</h1>
+            <div class="formation__btn">
+                <ul class="formacion__listado">
+                    <li><button class="formacion__listado-btn" onclick="selectButton(1)">Programa ONE</button></li>
+                    <li><button class="formacion__listado-btn" onclick="selectButton(2)">FreeCodeCamp</button></li>
+                    <li><button class="formacion__listado-btn" onclick="selectButton(3)">Edx-Courses</button></li>
+                    <li><button class="formacion__listado-btn" onclick="selectButton(4)">Instituciones</button></li>
+                </ul>
+            </div>
             <div class="fromation__content">
                 <div class="formation__paragraphs">
 
@@ -122,12 +137,11 @@
                             <img class="fromation__image-programer" src="../Portfolio01/assets/img/Screenshot 2023-06-23 191003.png" alt="Imagendeperfil">
                         </div>
                         <div class="formation__paragraph">
-                        <p><h1>Oracle Next Education: </h1> 
+                        <p><h1>Oracle Next Education</h1> 
                             Actualmente me especializo en desarrollo Front-end en el programa ONE de Oracle.<br><br> 
                             El programa equipa a los estudiantes con habilidades técnicas y conductuales para actuar como 
                             Jr. Developer, un profesional que trabaja para crear y mejorar sitios web, software y aplicaciones, 
-                            y los prepara para su objetivo profesional. Esta beca me permitió conocer profesionales de diferentes 
-                            nacionalidades y disciplinas.  
+                            y los prepara para su objetivo profesional.
                         </p>
                         </div>
                     </div>
@@ -137,7 +151,7 @@
                             <img class="fromation__image-programer" src="../Portfolio01/assets/img/unnamed.jpg" alt="Imagendeperfil">
                         </div>
                         <div class="formation__paragraph">
-                        <p><h1>Freecodecamp: </h1>
+                        <p><h1>Freecodecamp</h1>
                             freeCodeCamp es una organización sin ánimo de lucro consistente en una plataforma web de enseñanza interactiva 
                             accesible para todo el mundo, una comunidad en línea de chats y diversas publicaciones y organizaciones locales 
                             que pretenden hacer de la enseñanza del desarrollo web algo accesible a todas las personas. 
@@ -149,7 +163,7 @@
                             <img class="fromation__image-programer" src="../Portfolio01/assets/img/edx.jpg" alt="Imagendeperfil">
                         </div>
                         <div class="formation__paragraph">
-                        <p><h1>Edx: </h1>
+                        <p><h1>Edx</h1>
                             EdX ofrece cursos en línea para avanzar profesionalmente. Encuentra cursos en línea en formato MOOC de las mejores universidades a nivel mundial,
                             por lo que me ayuda a mantenerme actualizado de las tecnologías emergentes y obteniendo una educación de calidad. 
                         </p>
@@ -160,7 +174,7 @@
                             <img class="fromation__image-programer" src="../Portfolio01/assets/img/Programming-pana.png" alt="Imagendeperfil">
                         </div>
                         <div class="formation__paragraph">
-                        <p><h1>Education Tradicional: </h1>
+                        <p><h1>Instituciones</h1>
                             Graduado como Bachiller en Ciencias y Letras con orientación en Computación y estudiante de Ingeniería
                             en Sistemas en la Universidad de San Carlos de Guatemala.<br> 
                             Cursé mi educación secundaria en el Colegio Salesiano Don Bosco hasta concluir
@@ -171,13 +185,69 @@
                         </div>
                     </div>
                 </div>
-                <div class="formation__btn">
-                    <ul class="formacion__listado">
-                        <li><button class="formacion__listado-btn" onclick="selectButton(1)">Programa ONE</button></li>
-                        <li><button class="formacion__listado-btn" onclick="selectButton(2)">FreeCodeCamp</button></li>
-                        <li><button class="formacion__listado-btn" onclick="selectButton(3)">Edx-Courses</button></li>
-                        <li><button class="formacion__listado-btn" onclick="selectButton(4)">Educación Superior</button></li>
+
+            </div>
+
+
+        </div>
+
+
+        <div class="projects">
+            <h1 class="formation__tittle" data-number="03">Proyectos</h1>
+
+            <div class="project__cards">
+                <div class="project__card encriptador">
+                    <img class="project__img" src="../Portfolio01/assets/img/Screenshot 2023-06-27 102728.png" alt="">
+                    <h3 class="project__tittle">Encriptador de texto</h3>
+                    <ul class="proyect__description">
+                        <li>JavaScript</li>
+                        <li>CSS</li>
+                        <li>HTML</li>
                     </ul>
+                    <button class="project__btn" onclick="selectButton(1)">Ver Repositorio</button>
+                </div>
+
+                <div class="project__card encriptador">
+                    <img class="project__img" src="../Portfolio01/assets/img/Screenshot 2023-06-27 140112.png" alt="">
+                    <h3 class="project__tittle">Barbería Alura</h3>
+                    <ul class="proyect__description">
+                        <li>JavaScript</li>
+                        <li>CSS</li>
+                        <li>HTML</li>
+                    </ul>
+                    <button class="project__btn" onclick="selectButton(1)">Ver Repositorio</button>
+                </div>
+                
+                <div class="project__card encriptador">
+                    <img class="project__img" src="../Portfolio01/assets/img/Screenshot 2023-06-27 163640.png" alt="">
+                    <h3 class="project__tittle">Encriptador de texto</h3>
+                    <ul class="proyect__description">
+                        <li>JavaScript</li>
+                        <li>CSS</li>
+                        <li>HTML</li>
+                    </ul>
+                    <button class="project__btn" onclick="selectButton(1)">Ver Repositorio</button>
+                </div>
+
+                <div class="project__card encriptador">
+                    <img class="project__img" src="../Portfolio01/assets/img/Screenshot 2023-06-27 102728.png" alt="">
+                    <h3 class="project__tittle">Encriptador de texto</h3>
+                    <ul class="proyect__description">
+                        <li>JavaScript</li>
+                        <li>CSS</li>
+                        <li>HTML</li>
+                    </ul>
+                    <button class="project__btn" onclick="selectButton(1)">Ver Repositorio</button>
+                </div>
+                <div class="project__card encriptador">
+                    <img class="project__img" src="../Portfolio01/assets/img/Screenshot 2023-06-27 102728.png" alt="">
+                    <h3 class="project__tittle">Encriptador de texto</h3>
+                    <ul class="proyect__description">
+                        <li>JavaScript</li>
+                        <li>CSS</li>
+                        <li>HTML</li>
+                    </ul>
+                    <button class="project__btn" onclick="selectButton(1)">Ver Repositorio</button>
                 </div>
             </div>
 
