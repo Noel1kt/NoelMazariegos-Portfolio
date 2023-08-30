@@ -1,0 +1,11 @@
+.footer__contact{
+    
+    background-color: var(--back-color);
+    padding-right: 25%;
+    padding-left: 30%;
+    padding-bottom: 15%;
+}
+
+.footer__contact h1{
+    margin: 0%;
+}

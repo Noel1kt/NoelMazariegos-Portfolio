@@ -1,0 +1,14 @@
+.contact__btn{
+    text-align: center;
+    align-items: center;  
+    font-weight: 25px;
+    font-size: 16px;
+    background-color: var(--text-hover);
+    color:  var(--back-color); 
+    border-style: none;
+    font-family: monospace;
+    padding: 2%;
+    margin: 2%;
+    gap: 2px;
+    transition: background-color 0.1s ease-in;
+}

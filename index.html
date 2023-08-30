@@ -50,6 +50,8 @@
         <link rel="stylesheet" href="../Portfolio01/assets/css/project/project-tittle.css">
         <link rel="stylesheet" href="../Portfolio01/assets/css/project/project-btn.css">
         <link rel="stylesheet" href="../Portfolio01/assets/css/project/project-description.css">
+        <link rel="stylesheet" href="../Portfolio01/assets/css/contact/footerContact.css">
+        <link rel="stylesheet" href="../Portfolio01/assets/css/contact/contactBtn.css">
     </head>
 
     <header class="header">
@@ -59,7 +61,7 @@
                     <li class="nav__item" data-number="01"><a class="nav__link" href="#parrafo"> Sobre mi</a></li>
                     <li class="nav__item" data-number="02"><a class="nav__link" href="#formation"> Formación</a></li>
                     <li class="nav__item" data-number="03"><a class="nav__link" href="#projects"> Proyectos</a></li>
-                    <li class="nav__item" data-number="04"><a class="nav__link" href="#"> Contactame</a></li>
+                    <li class="nav__item" data-number="04"><a class="nav__link" href="#Contactame"> Contactame</a></li>
                 </ul>
         </nav>
     </header>
@@ -273,24 +275,24 @@
                     </div>
                 </div>
                 <div class="project__card encriptador">
-                    <img class="project__img" src="../Portfolio01/assets/img/Screenshot 2023-06-27 102728.png" alt="">
-                    <h3 class="project__tittle">Encriptador de texto</h3>
+                    <img class="project__img" src="../Portfolio01/assets/img/barberia.png" alt="">
+                    <h3 class="project__tittle">Barbería Alura</h3>
                     <ul class="proyect__description">
                         <li>JavaScript</li>
                         <li>CSS</li>
                         <li>HTML</li>
                     </ul>
                     <div class="botones-repo">
-                        <a class="link" href="https://github.com/Noel1kt/Encriptador" target="_blank">
+                        <a class="link" href="https://github.com/Noel1kt/Barberia-Alura" target="_blank">
                             <button class="project__btn">Repositorio</button>
                         </a>
-                        <a class="link" href="noel1kt.github.io/Encriptador/" target="_blank">    
+                        <a class="link" href="https://noel1kt.github.io/Barberia-Alura/" target="_blank">    
                             <button class="project__btn">Ver Proyecto</button>
                         </a>
                     </div>
                 </div>
                 <div class="project__card encriptador">
-                    <img class="project__img" src="../Portfolio01/assets/img/Screenshot 2023-06-27 102728.png" alt="">
+                    <img class="project__img" src="../Portfolio01/assets/img/avicola.jpg"  alt="">
                     <h3 class="project__tittle">Encriptador de texto</h3>
                     <ul class="proyect__description">
                         <li>JavaScript</li>
@@ -308,6 +310,23 @@
                 </div>
             </div>
 
+        </div>
+
+
+        <div class="footer__contact" id="Contactame">
+            <h1 data-number="04" class="about__tittle">Contactame</h1>
+            <div class="input-container">
+              <input name="name" id="name" class="input" type="text" placeholder="Nombre" required data-tipo="nombre">
+              <label class="input-label" for="name"></label>
+            </div>
+            <div class="input-container">
+              <textarea cols="70" rows="10" id="Mensaje" class="input" required 
+              placeholder="Escribe tu mensaje aquí"></textarea>
+                <label class="input-label" for="description"></label>
+            </div>
+            <div class="banner__btn">
+              <button class="contact__btn">Enviar mensaje</button>
+           </div>
         </div>
         <style>
             html {

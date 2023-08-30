@@ -8,3 +8,23 @@
     font-family: monospace;
     font-size: 30px;
   }
+
+.input-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1rem;
+    
+}
+
+.input-container input, textarea{
+    width: 90%;
+    padding: 1rem;
+    border-style: none;
+    
+}
+
+.input-container textarea:focus, input:focus{
+    border: none;
+    outline: none;
+}
