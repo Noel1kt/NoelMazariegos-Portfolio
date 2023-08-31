@@ -23,3 +23,13 @@
       transform: translate(0, 0);
     }
   }
+
+  
+@media screen and (max-width:768px) {
+  .introduction__image-programer  {
+     display: none;
+      
+      
+  }
+}
+

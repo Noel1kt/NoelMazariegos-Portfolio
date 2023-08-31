@@ -3,3 +3,18 @@
     font-size: 70px;
     z-index: 1;
 }
+
+@media screen and (max-width:768px) {
+    .introduction__profession h2  {
+        font-size: 30px;
+        
+        
+    }
+  }
+  
+  @media screen and (min-width:993px) {
+    .introduction__profession h2  {
+        font-size: 70px;
+        
+    }
+  }

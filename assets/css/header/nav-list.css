@@ -1,4 +1,23 @@
-.nav__list {
+.nav__list  {
     display: flex;
     margin-right: 4rem;
 }
+
+@media screen and (max-width:768px) {
+    .nav__list  {
+        display: flex;
+        margin-right: 0rem;
+        
+    }
+    .header{
+        flex-direction: column;
+        align-items: center;
+    }
+  }
+  
+  @media screen and (min-width:992px) {
+    .nav__list  {
+        display: flex;
+        margin-right: 4rem;
+    }
+  }

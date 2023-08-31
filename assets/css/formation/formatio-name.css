@@ -1,9 +1,5 @@
-.fromation__content{
-    display: flex;
-}
-
 @media screen and (max-width:768px) {
-    .fromation__content  {
+    .formation__name  {
         display: flex;
         flex-direction: column;
         
@@ -11,7 +7,7 @@
   }
   
   @media screen and (min-width:992px) {
-    .fromation__content{
+    .formation__name{
         display: flex;
     }
     

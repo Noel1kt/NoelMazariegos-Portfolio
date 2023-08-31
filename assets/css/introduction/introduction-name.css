@@ -4,3 +4,24 @@
     margin: 0%;
     margin-top: 1rem;
 }
+
+@media screen and (max-width:768px) {
+    .introduction__name h1  {
+        color: var(--color-text1);
+        font-size: 30px;
+        margin: 0%;
+        margin-top: 1rem;
+        
+        
+    }
+  }
+  
+  @media screen and (min-width:993px) {
+    .introduction__name h1  {
+        color: var(--color-text1);
+        font-size: 30px;
+        margin: 0%;
+        margin-top: 1rem;
+        
+    }
+  }

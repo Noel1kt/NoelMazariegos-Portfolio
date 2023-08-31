@@ -5,3 +5,27 @@
     padding-left: 20%;
     width: 45%;
 }
+
+
+@media screen and (max-width:768px) {
+    .aboutMe  {
+        background-color: var(--back-color);
+        padding: 10%;
+        padding-top: 7%;
+        padding-left: 20%;
+        width: 70%; 
+        display: inline-block;       
+    }
+  }
+  
+  @media screen and (min-width:993px) {
+    .aboutMe  {
+        background-color: var(--back-color);
+    padding: 10%;
+    padding-top: 7%;
+    padding-left: 20%;
+    width: 45%;
+       
+        
+    }
+  }

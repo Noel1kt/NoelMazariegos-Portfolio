@@ -8,3 +8,18 @@
     margin-top: 1rem;
     z-index: 2;
 }
+
+@media screen and (max-width:768px) {
+    .introduction__description h4  {
+        width: 75%;
+        
+        
+    }
+  }
+  
+  @media screen and (min-width:993px) {
+    .introduction__description h4  {
+        
+        
+    }
+  }

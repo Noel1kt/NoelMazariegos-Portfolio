@@ -7,3 +7,26 @@
     font-weight: 400;
     width: 100%;
 }
+
+@media screen and (max-width:768px) {
+    .introduction  {
+        display: flex;
+        flex-direction: column;
+        padding: 2%;
+        display: inline-block;        
+    }
+  }
+  
+  @media screen and (min-width:993px) {
+    .introduction  {
+        background-color: var(--back-color);
+        padding-bottom: 15%;
+        padding-top: 10%;
+        padding-right: 0%;
+        padding-left: 15%;
+        font-weight: 400;
+        width: 100%;
+       
+        
+    }
+  }
