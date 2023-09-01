@@ -9,3 +9,10 @@
 .nav__link:hover{
     color: var(--text-hover);
 }
+
+@media screen and (max-width:768px) {
+    .nav__link   {
+        font-size: 15px;
+        margin-right: 0rem;
+    }
+  }
