@@ -9,3 +9,9 @@
 .footer__contact h1{
     margin: 0%;
 }
+
+@media screen and (max-width:768px) {
+    .footer__contact {
+        padding: 5%;      
+    }
+  }
