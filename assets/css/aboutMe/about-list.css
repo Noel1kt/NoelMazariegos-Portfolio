@@ -1,3 +1,9 @@
 .aboutList {
     display: grid;
 }
+
+@media screen and (max-width:768px) {
+    .aboutList    {
+       width: 100%;    
+    }
+  }

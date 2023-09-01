@@ -2,14 +2,13 @@
     background-color: var(--back-color);
     width: 40%;
     padding-top: 13%;
+    display: flex;
+    align-items: center;
 }
 
 @media screen and (max-width:768px) {
     .image    {
         width: 100%;
-        
-        
-        
     }
   }
   

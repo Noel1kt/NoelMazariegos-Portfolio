@@ -5,3 +5,15 @@
     margin-right: 0%;
     padding: 10%;
 }
+
+@media screen and (max-width:768px) {
+    .formacion__image  {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0%;
+    }
+    .fromation__image-programer {
+        padding: 0%;
+    }
+  }

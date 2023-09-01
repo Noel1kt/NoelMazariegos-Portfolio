@@ -7,11 +7,13 @@
     width: 55%;
     margin-top: 1rem;
     z-index: 2;
+    align-items: center;
 }
 
 @media screen and (max-width:768px) {
     .introduction__description h4  {
-        width: 75%;
+        width: 100%;
+        
         
         
     }
