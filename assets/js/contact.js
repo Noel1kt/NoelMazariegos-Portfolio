@@ -8,6 +8,6 @@ function handleSubmit(event) {
     event.preventDefault()
     const formCont = new FormData(this)
     console.log(formCont.get('name'))
-    func.setAttribute('href', `mailto:noelmazariegospc.com?subjet=${formCont.get('name')}${formCont.get('email')}&body=${formCont.get('message')}`)
+    func.setAttribute('href', `mailto:noelmazariegospc.com?subjet=nombre ${formCont.get('name')} correo ${formCont.get('email')}&body=${formCont.get('message')}`)
     func.click()
 }
